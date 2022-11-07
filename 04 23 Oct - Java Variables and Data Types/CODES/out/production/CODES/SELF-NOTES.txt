@@ -1,0 +1,10 @@
+// Naming Convention in java -----------------
+
+Function & Variables -> camelCase
+Class -> PascalCase
+Packages -> lowercase
+Constants -> UPPER_SNAKE_CASE (also called screaming snake case)
+
+// Data Types
+
+https://www.geeksforgeeks.org/data-types-in-java/
