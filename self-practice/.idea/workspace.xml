@@ -87,7 +87,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
