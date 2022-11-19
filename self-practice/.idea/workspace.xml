@@ -44,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.p14">
+  <component name="RunManager" selected="Application.p12">
     <configuration name="p12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p12" />
       <module name="self-practice" />
@@ -82,9 +82,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p12" />
         <item itemvalue="Application.p14" />
         <item itemvalue="Application.p13" />
-        <item itemvalue="Application.p12" />
         <item itemvalue="Application.p4" />
         <item itemvalue="Application.p6" />
       </list>
