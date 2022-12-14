@@ -1,5 +1,6 @@
 //switch case
 //day number
+
 import java.util.Scanner;
 
 public class p14 {
