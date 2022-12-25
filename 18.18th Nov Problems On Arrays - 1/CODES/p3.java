@@ -1,18 +1,16 @@
 import java.util.Scanner;
 
 public class p3 {
-    //    first repeat
+    //    return first repeat if not return -1 
     static int firstRepeat(int[] arr) {
-        int ans = -1;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
-                    ans = arr[i];
-                    break;
+                   return arr[1];
                 }
             }
         }
-        return ans;
+        return -1;
     }
 
     public static void main(String[] args) {
@@ -27,5 +25,6 @@ public class p3 {
         }
         //    first repeat
         System.out.println("First repetitive element is : " + firstRepeat(arr));
+        sc.close();
     }
 }

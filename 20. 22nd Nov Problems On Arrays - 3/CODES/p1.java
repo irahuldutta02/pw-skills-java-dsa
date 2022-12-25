@@ -32,5 +32,6 @@ public class p1 {
         // short an array containing only 0's and 1's
         shortAnArrayWith01(arr);
         System.out.println("Shorted array : "+Arrays.toString(arr));
+        sc.close();
     }
 }

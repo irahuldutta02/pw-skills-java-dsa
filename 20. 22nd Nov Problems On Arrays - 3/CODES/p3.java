@@ -43,5 +43,6 @@ public class p3 {
 
         shortOddEven(arr);
         System.out.println("Shorted odd even array : " + Arrays.toString(arr));
+        sc.close();
     }
 }

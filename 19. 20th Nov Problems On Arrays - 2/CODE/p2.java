@@ -59,6 +59,7 @@ public class p2 {
         //Reverse an array consisting of integer values. (swap)
         reversedArr3(arr);
         System.out.println("Reversed array using swap is : " + Arrays.toString(arr));
+        sc.close();
     }
 
 

@@ -82,6 +82,7 @@ public class p1 {
 
         // Find the unique number in a given Array where all the elements are being repeated twice with one value being unique. (only positive numbers)
         System.out.println("Unique element is : " + findUnique(arr));
+        sc.close();
 
     }
 }

@@ -61,6 +61,7 @@ public class p3 {
         System.out.println("Rotated array is ( Not space optimized ) : " + Arrays.toString(rotateArr(arr, k)));
         // ( Space optimized )
         System.out.println("Rotated array is ( Space optimized ) : " + Arrays.toString(rotateArr2(arr, k)));
+        sc.close();
 
     }
 }

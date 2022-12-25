@@ -43,6 +43,7 @@ public class p2 {
         // 2nd approach same as p1
         shortAnArrayWith01(arr);
         System.out.println("Shorted array : " + Arrays.toString(arr));
+        sc.close();
 
     }
 }
