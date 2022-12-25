@@ -1,21 +1,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class p1 {
+public class p2 {
 
-  //     Given an integer array 'arr', return the prefix sum/running sum of the array
-  public static int[] prefixSum(int[] arr) {
+  //     Given an integer array 'arr', return the prefix sum/running sum in the same array without
+  //     creating a new array.
+  public static void prefixSum(int[] arr) {
     int n = arr.length;
-    int[] pref = new int[n];
-    pref[0] = arr[0];
-
     for (int i = 1; i < n; i++) {
-      pref[i] = pref[i - 1] + arr[i];
+        arr[i] += arr[i-1];
     }
-    return pref;
   }
 
   public static void main(String[] args) {
+    // taking a array input 
     Scanner sc = new Scanner(System.in);
     System.out.print("Input array size : ");
     int n = sc.nextInt();
@@ -24,9 +22,10 @@ public class p1 {
     for (int i = 0; i < n; i++) {
       arr[i] = sc.nextInt();
     }
-    
+
     //     Given an integer array 'arr', return the prefix sum/running sum of the array
-    System.out.println("Prefix Sum : "+Arrays.toString(prefixSum(arr)));
+    prefixSum(arr);
+    System.out.println("Prefix Sum : " + Arrays.toString(arr));
     sc.close();
   }
 }
