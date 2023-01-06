@@ -52,20 +52,19 @@ public class P01 {
       }
       rC--;
 
-      // bottomrow -> rightcol to leftcol 
-      for (int j= rC;j<=lC && tE<r*c;j--){
-        System.out.print(arr[bR][j]+" ");
+      // bottomrow -> rightcol to leftcol
+      for (int j = rC; j >= lC && tE < r * c; j--) {
+        System.out.print(arr[bR][j] + " ");
         tE++;
       }
       bR--;
 
-      // leftcol -> bottomrow to toprow 
-      for(int i=bR;i<=tR && tE< r*c;i-- ){
-        System.out.print(arr[i][lC]+" ");
+      // leftcol -> bottomrow to toprow
+      for (int i = bR; i >= tR && tE < r * c; i--) {
+        System.out.print(arr[i][lC] + " ");
         tE++;
-      } 
+      }
       lC++;
-      
     }
   }
 
